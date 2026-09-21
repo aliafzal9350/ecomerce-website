@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets / local env (keep templates)
+.env
+.env.*
+!.env.template
+!.env.example
+
+# Build output & caches
+.next/
+.medusa/
+.turbo/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
